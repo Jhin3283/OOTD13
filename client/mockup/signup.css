@@ -1,0 +1,181 @@
+* {
+  padding: 0;
+  margin: 3px;
+  box-sizing: border-box;
+}
+
+.top-hr {
+  color: black;
+  height: 1px;
+  border: 1;
+}
+
+.signup-form-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signup-form-top {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.signup-form-title {
+  align-self: flex-start;
+}
+
+.signup-form-grid-nav {
+  height: 10%;
+  align-self: flex-start;
+}
+
+.signup-form-grid-main {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.signup-form-grid-main * {
+  margin-bottom: 10px;
+} 
+
+img {
+  align-content: center;
+}
+
+h3 {
+  margin-bottom: 10px;
+}
+form span {
+  font-size: 16px;
+}
+span {
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.signup-form-email {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.signup-form-email-section {
+  display: flex;
+}
+
+.signup-form-email-icon {
+  display: flex;
+  align-items: center;
+}
+.signup-form-email-input {
+  position: inherit;
+  width: 45%;
+  height: 50px;
+  display: inline-block;
+  color:black
+}
+
+.signup-form-email-select {
+  width: calc(100% - 45% - 30px);
+  height: 50px;
+  display: inline-block;
+}
+
+.signup-form-login-guide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  width: 15%;
+  height: 50px;
+  color: white;
+  border: 1px solid #d4e3fc;
+  background-color: #36C5F0;
+  border: 1px solid #00bcf5;
+  font-size: 14px;
+}
+
+.signup-form-submit {
+  width: 100%;
+  height: 60px;
+  font-size: 20px;
+}
+
+.signup-form-username {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-form-username-section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  /* background-color: black; */
+}
+
+form > input,
+section > input,
+div > input {
+  width: 100%;
+  height: 50px;
+  color: black;
+  border: 1px solid #d4e3fc;
+  font-size: 16px;
+  padding-left: 7px;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+}
+
+::placeholder {
+  padding-left: 5px;
+}
+
+.signup-form-login-redirection {
+  padding-left: 5px;
+  text-decoration-line: none;
+  text-decoration-style: none;
+  color: black;
+}
+
+.signup-form-agreement-section {
+  border: solid 1px lightgray;
+  padding: 15px;
+  margin-bottom: 5px;
+}
+
+label {
+  display: block;
+}
+
+.signup-form-sns {
+  color: gray;
+  text-align: center;
+  justify-content: center;
+}
+
+.signup-form-github {
+  display: block;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+section > * {
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.essential {
+  color: #36C5F0;
+}
+
+.option {
+  color: gray;
+}

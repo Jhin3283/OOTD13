@@ -1,0 +1,11 @@
+button:hover {
+  cursor: pointer;
+}
+
+img {
+  align-content: center;
+}
+
+::placeholder {
+  margin-left: 5px;
+}

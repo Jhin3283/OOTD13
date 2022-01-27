@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="signup.css">
+  <title>회원가입 페이지</title>
+</head>
+<body>
+  <div class="signup-form-main">
+    <div class="signup-form-grid-nav">
+      <a href="#" class="signup-form-github">
+        <img src="./public/logo.png" width=150px>
+      </a>
+    </div>
+    <div class="signup-form-grid-main">
+      <form class="signup-form-top">
+        <h2 class="signup-form-title">회원가입</h2>
+        <span class="signup-form-sns">SNS계정으로 간편 로그인/회원가입</span>
+        <a href="#" class="signup-form-github">
+          <img src="./public/github_logo.png" width=50px>
+        </a>
+        <hr class="top-hr">
+      </form>
+      <form class="signup-form-email">
+          <h3 class="signup-form-email-title">이메일</h3>
+        <div class="signup-form-email-section">
+          <input class="signup-form-email-input" placeholder="이메일"></input>
+          <span class="signup-form-email-icon">@</span>
+          <select class="signup-form-email-select" placeholder="선택해주세요">
+            <option>선택하세요</option>
+            <option>naver.com</option>
+            <option>hanmail.net</option>
+          </select>
+        <button type="check" class="signup-form-email-check">중복확인</button>
+      </div>
+      </form>
+      <form class="signup-form-password">
+        <h3 class="signup-form-password-title">비밀번호</h3>
+        <span class="signup-form-password-desc">영문, 숫자를 포함한 8자 이상의 비밀번호를 입력해주세요.</span>
+        <input class="signup-form-password-input" placeholder="비밀번호"></input>
+      </form>
+      <form class="signup-form-password-check">
+        <h3 class="signup-form-password-check-title">비밀번호 확인</h3>
+        <input class="signup-form-password-check-input" placeholder="비밀번호 확인"></input>
+      </form>
+      <form class="signup-form-username">
+        <h3 class="signup-form-username-title">닉네임</h3>
+      <span class="signup-form-username-desc">다른 유저와 겹치지 않는 별명을 입력해주세요. (2~15자)</span>
+      <div class="signup-form-username-section">
+        <input class="signup-form-password-check-input" placeholder="별명(2~15자)"></input>
+        <button class="signup-form-username-check">중복확인</button>
+      </div>
+    </form>
+    <form class="signup-form-agreement">
+      <h3 class="signup-form-agreement-title">약관동의</h3>
+      <section class="signup-form-agreement-section">
+        <label for="agree">
+          <input type="checkbox" name="agree_all" class="agree_all">
+          <span>전체동의</span>
+        </label>
+        <hr>
+        <label for="agree">
+          <input type="checkbox" name="agree" value="1">
+          <span>만 14세 이상입니다.<span class="essential">(필수)</span></span>
+          <br>
+        </label>
+        <label for="agree">
+          <input type="checkbox" name="agree" value="2">
+          <span>이용약관<span class="essential">(필수)</span></span>
+          <br>
+        </label>
+        <label for="agree">
+          <input type="checkbox" name="agree" value="3">
+          <span>개인정보수집 및 이용동의<span class="essential">(필수)</span></span>
+          <br>
+        </label>
+        <label for="agree">
+          <input type="checkbox" name="agree" value="4">
+          <span>이벤트, 프로모션 알림 메일 및 SMS 수신<span class="option">(선택)</span></span>
+        </label>
+      </section>
+    </form>
+      <button class="signup-form-submit">회원가입하기</button>
+    <form class="signup-form-login-guide">
+      <span >이미 아이디가 있으신가요?<a href="#" class="signup-form-login-redirection">로그인</a></span>
+    </form>
+      </div>
+    </div>
+</body>
+</html>

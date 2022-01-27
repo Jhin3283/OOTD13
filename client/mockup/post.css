@@ -1,0 +1,125 @@
+.modal-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100vw;
+  height: 100vh;
+}
+
+.post-form {
+  background-color: #FAFAFA;
+  display: flex;
+  flex-direction: column;
+  width: min(500px, 1000px);
+  height: min(700px, 1080px);
+}
+
+.post-form-image {
+  background-color:cadetblue;
+  width: 90%;
+  height: 80%;
+  /* border: 10px solid white; */
+  justify-self: center;
+  align-self: center;
+  margin-top: 20px;
+}
+
+
+.post-form-inform {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.post-form-inform * {
+  display: flex;
+  margin: 10px 0 0 25px;
+  font-weight: 500;
+}
+
+.post-form-views {
+  display: flex;
+  justify-items: flex-start;
+  align-items: flex-end;
+  margin: 0 10;
+  padding: 0 0;
+}
+
+/* .post-form-views * {
+  justify-self: flex-start;
+} */
+
+.post-form-like {
+  display: flex;
+  justify-items: flex-start;
+  align-items: flex-end;
+  margin: 0 10;
+  padding: 0 0;
+}
+
+.post-form-views-title,
+.post-form-like-title {
+  color: gray;
+  font-weight: 400;
+  margin: 0 5px 0 0;
+}
+
+.post-form-views-num,
+.post-form-like-num {
+  color: black;
+  margin: 0 0;
+}
+
+
+.post-form-username {
+  font-size: 18px;
+}
+
+hr {
+  color: black;
+  border: 1;
+  background-color: black;
+}
+.post-form-tag {
+  margin-top: 10px;
+  margin-left: 23px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  /* background-color: rgb(175, 175, 175); */
+}
+
+.post-form-tag * {
+  width: auto;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  padding: 0 8px;
+  margin: 0 8px 8px 0;
+  font-size: 14px;
+  font-weight: 500;
+  list-style: none;
+  border-radius: 6px;
+  background: #65b9f9;
+}
+
+
+
+.post-form-viewmore {
+  
+  text-decoration: underline;
+  
+  display: flex;
+  align-self: flex-end;
+  width: auto;
+  height: 100%;
+  color: #3D88D7;
+  margin: 0 25px 30px 0;
+  font-size: 18px;
+  font-weight: 700;
+  /* background-color:fuchsia; */
+}
+
